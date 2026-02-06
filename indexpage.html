@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orbit Bootstrap Template Demo</title>
-    <link rel="stylesheet" href="styleworkout.css" />
+    <link rel="stylesheet" href="mainstyle.css" />
     <!-- Bootstrap icons link -->
     <link
       rel="stylesheet"
@@ -13,10 +13,9 @@
   </head>
   <body>
     <header class="header fixed-top">
-      <div class="container" style="align-items: center">
+      <div class="hdrcontainer" style="align-items: center">
         <h1>Orbit</h1>
         <!-- <span>.</span> -->
-
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="#home" class="active">Home</a></li>
@@ -51,29 +50,30 @@
             </li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          <!-- <i class="mobile-nav-toggle d-xl-none bi bi-list"></i> -->
         </nav>
-
-        <a class="btn-getstarted" href="WorkOut.html#about">Get Started</a>
+        <a class="btn-getstarted" href="indexpage.html">Get Started</a>
       </div>
     </header>
     <main class="main">
-      <section id="home" class="home section">
-        <div class="container">
+      <!-- Home section -->
+      <section id="home" class="home">
+        <div class="homecontainer">
           <div class="home-content">
             <div class="home-subheading">
               <span class="home-sub-ball"></span>
               <span class="home-sub-label">Premium Digital Solutions</span>
             </div>
-
-            <h1 class="home-heading">
-              Crafting Exceptional Digital Experiences
-            </h1>
-            <p>
-              Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat
-              vitae ultricies eget.
-            </p>
+            <div>
+              <h1 class="home-heading">
+                Crafting Exceptional Digital Experiences
+              </h1>
+              <p>
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                feugiat vitae ultricies eget.
+              </p>
+            </div>
             <div class="home-btns">
               <a href="#services" class="btn-explrServices">
                 <span>Services</span>
@@ -124,6 +124,37 @@
               <div class="home-card-text">
                 <span class="home-card-value">40+</span
                 ><span class="home-card-label">Team Experts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services section -->
+      <section id="services" class="serv-container">
+        <div>
+          <div class="serv-content">
+            <h2 align="center">Services</h2>
+            <p align="center">
+              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+              consectetur velit
+            </p>
+          </div>
+          <br />
+          <div class="serv-grid">
+            <div class="serv-cards">
+              <div class="serv-card-icon">
+                <i class="bi bi-code-lightbulb"></i>
+              </div>
+              <div class="serv-card-text">
+                <h4 class="serv-card-value">Strategic Consulting</h4>
+                <p class="serv-card-label">
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas.
+                </p>
+                <a class="btn-discovermore" href="servicedetails.html">
+                  <span>Discover More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
               </div>
             </div>
           </div>
