@@ -55,6 +55,8 @@ h6 {
 }
 
 .header {
+  position: sticky;
+  top: 0;
   color: #475569;
   background-color: var(--primary-bg-color);
   padding: 15px 0;
@@ -67,8 +69,8 @@ h6 {
   text-decoration: none;
 }
 
-.header .container h1,
-.header .container .navmenu {
+.header .hdrcontainer h1,
+.header .hdrcontainer .navmenu {
   padding: 0 0 0 135px;
 }
 
@@ -417,6 +419,18 @@ h6 {
 .serv-cards .btn-discovermore:hover,
 .serv-cards .btn-discovermore:focus:hover {
   color: var(--primary-hover-color);
+}
+
+/* Footer */
+.ftr-container {
+  display: flex;
+  background-color: var(--primary-bg-color);
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 140px;
+  padding-left: 150px;
 }
 
 /* } */
